@@ -31,7 +31,7 @@ Template Name: Page With No Sidebar
 												<div <?php post_class('actual_post_full') ?> id="post-<?php the_ID(); ?>">
 													<div class="ta_meta_container_full">
                                                     <div class="actual_post_title_page_full">
-														<h2><?php the_title(); ?></h2>
+														<?php $title = get_the_title(); $cwp = 'CWP Properties'  if($title !== $cwp){the_title(<h2>, </h2>);} else {echo "";}?> 
 													</div>
 													</div>
 													<div class="post_entry_full">
