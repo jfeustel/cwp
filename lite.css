@@ -1,0 +1,11 @@
+.logo_title {
+	font:48px/48px 'ChunkFiveRegular', Georgia, "Times New Roman", Times, serif;
+	margin:10px 0 0 20px;
+}
+.logo_title a{
+	color:#FFFFFF;
+	margin:0;
+}
+.logo_title a:hover{
+	text-decoration:none;
+}
